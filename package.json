@@ -12,7 +12,9 @@
     "lint": "eslint .",
     "codecov": "npm run test && (codecov || true)",
     "autofix": "eslint --fix .",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -29,7 +31,8 @@
     "nano": "^6.2.0",
     "uuid": "^2.0.2",
     "vcap_services": "^0.2.0",
-    "bluebird": "^3.4.1"
+    "bluebird": "^3.4.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "browser-sync": "^2.14.0",
@@ -74,5 +77,6 @@
       "name": "April Webster",
       "email": "awebster@us.ibm.com"
     }
-  ]
+  ],
+  "snyk": true
 }
