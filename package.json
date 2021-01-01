@@ -23,7 +23,7 @@
     "body-parser": "^1.15.1",
     "json-query": "^2.1.0",
     "twitter-node-client": "^0.0.6",
-    "watson-developer-cloud": "^2.2.0",
+    "watson-developer-cloud": "^3.0.1",
     "cloudant": "^1.4.1",
     "express-csv": "^0.6.0",
     "nano": "^6.2.0",
